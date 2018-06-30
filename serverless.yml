@@ -1,0 +1,40 @@
+
+
+service: bd-ipa-api
+provider:
+  name: aws
+  runtime: nodejs6.10
+  stage: ${opt:stage, 'dev'}
+functions:
+  bars:
+    handler: handler.getAllBars
+    events:
+      - http:
+          path: bars
+          method: get
+  beersInBar:
+    handler: handler.getBeersInBar
+    events:
+      - http:
+          path: bars/{bar}
+          method: get
+          request:
+            parameters:
+              paths:
+                bar: true
+  
+plugins:
+  - serverless-domain-manager
+  - serverless-plugin-typescript
+  - serverless-offline
+
+package:
+  include:
+    - handler.js
+
+custom:
+  customDomain:
+    domainName: api.ipa-api.net
+    basePath: 'brewdog'
+    stage: ${self:provider.stage}
+    createRoute53Record: true

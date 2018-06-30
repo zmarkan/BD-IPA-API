@@ -9,8 +9,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/cheerio": "^0.22.7",
+    "@types/aws-lambda": "^8.10.7",
+    "@types/cheerio": "^0.22.8",
     "@types/request-promise": "^4.1.41",
+    "serverless-domain-manager": "^2.4.0",
+    "serverless-offline": "^3.25.5",
+    "serverless-plugin-typescript": "^1.1.5",
     "ts-node": "^7.0.0",
     "typescript": "^2.9.2"
   },
