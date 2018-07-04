@@ -180,12 +180,6 @@ function cfDecodeEmail(encodedString: string): string {
     return email;
 }
 
-console.log("jebote led");
-console.log(process.cwd());
-
-
-const fullBars = Array<Bar>();
-
 // let baseBarsBuffer = fs.readFileSync("../static/bars.json");
 fs.readFile("../static/bars.json", (err, data) => {
 
@@ -195,13 +189,19 @@ fs.readFile("../static/bars.json", (err, data) => {
     }
 
     let baseBars = JSON.parse(data.toString()) as Array<BarBase>;
-    // baseBars.forEach( bar => fullBars.push(requestBarDetails(bar)));
-    requestBarDetails(baseBars[0]).then( bar => {
-        fullBars.push(bar);
-    })
+    const fullBars = Array<Bar>();
+
+
+    async function processBarsArray(bars: Array<BarBase>) {
+        
+        for(const bar of bars){
+            await requestBarDetails(bar).then( fullBar => fullBars.push(fullBar));
+        }
     
+        fs.writeFileSync("../static/bars-full.json", JSON.stringify(fullBars));
+    }
+
+    processBarsArray(baseBars.slice(0, 2));
+});
 
 
-    fs.writeFileSync("../static/bars-full.json", JSON.stringify(fullBars));
-
-})
