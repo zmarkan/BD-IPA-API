@@ -5,7 +5,7 @@ import * as fs from 'fs';
 const BASE_URL = "https://www.brewdog.com";
 const BARS_UK_SUFFIX = "/bars/uk";
 
-type Bar = {
+export type BarBase = {
     id: string;
     title: string;
     url: string
@@ -21,7 +21,7 @@ const options = {
 request(options)
     .then( ($: CheerioAPI) => {
 
-        let allBars = Array<Bar>();
+        let allBars = Array<BarBase>();
 
         $("ul.sideNav > li").each( (n, elem) => {
 
