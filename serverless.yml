@@ -3,7 +3,7 @@
 service: bd-ipa-api
 provider:
   name: aws
-  runtime: nodejs6.10
+  runtime: nodejs8.10
   stage: ${opt:stage, 'dev'}
 functions:
   bars:
