@@ -1,15 +1,10 @@
 import * as request from 'request-promise';
 import * as cheerio from 'cheerio';
 import * as fs from 'fs';
+import { Bar } from '../src/bar';
 
 const BASE_URL = "https://www.brewdog.com";
 const BARS_UK_SUFFIX = "/bars/uk";
-
-export type BarBase = {
-    id: string;
-    title: string;
-    url: string
-}
 
 const options = {
     uri: BASE_URL + BARS_UK_SUFFIX ,
@@ -21,7 +16,7 @@ const options = {
 request(options)
     .then( ($: CheerioAPI) => {
 
-        let allBars = Array<BarBase>();
+        let allBars = Array<Bar>();
 
         $("ul.sideNav > li").each( (n, elem) => {
 
@@ -37,7 +32,7 @@ request(options)
                 !$(link).attr("href").includes("coming-soon")){ //
 
                     let url =  BASE_URL + $(link).attr("href").trim();
-                    let id = $(link).attr("id").match(/[0-9]+/)[0];
+                    let id = $(link).attr("id").match(/[0-9]+/)![0];
 
                     allBars.push( {
                         id: id,

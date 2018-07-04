@@ -1,35 +1,10 @@
+import { OnTap, Category, Beer } from "./ontap";
+
 import * as request from 'request-promise';
 import * as cheerio from 'cheerio';
 
 const API_URL_BASE = "https://www.brewdog.com/ajax/tap_list.php?id="
 
-//Models
-export class Bar {
-    id: string;
-
-    name?: string;
-    categories : Array<Category> = new Array();
-
-    constructor(barId: string){
-        this.id = barId;
-    }
-}
-
-class Category {
-    title: string;
-    beers: Array<Beer> = new Array();
-
-    constructor(title: string){
-        this.title = title;
-    }
-}
-
-class Beer {
-    name?: string;
-    type?: string;
-    brewery?: string;
-    abv?: string;
-}
  
 
 //That's where the magic happens
@@ -45,7 +20,7 @@ export function fetchBeersForBarByBarId(barId: string) {
     return request(options)
     .then(($: CheerioAPI) => {
   
-          let bar = new Bar(barId);
+          let bar = new OnTap(barId);
           
           $("div[class=category]").each( function(i, elem) {
               
@@ -79,4 +54,3 @@ export function fetchBeersForBarByBarId(barId: string) {
           return bar;
   });    
 }
-
