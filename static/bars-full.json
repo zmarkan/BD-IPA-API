@@ -1,0 +1,1854 @@
+[
+  {
+    "contact_details": {
+      "location": { "lat": "57.1494770", "lng": "-2.0978330" },
+      "address": ["17 Gallowgate", "Aberdeen AB25 1EB", "UK"],
+      "telephone": "",
+      "email": "aberdeenbar@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "twitter",
+        "handle": "@brewdogaberdeen",
+        "url": "https://www.twitter.com/brewdogaberdeen"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdogaberdeen",
+        "url": "https://www.instagram.com/brewdogaberdeen"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "12pm to 12am" },
+      { "day": "Tuesday", "times": "12pm to 12am" },
+      { "day": "Wednesday", "times": "12pm to 12am" },
+      { "day": "Thursday", "times": "12pm to 12am" },
+      { "day": "Friday", "times": "12pm to 1am" },
+      { "day": "Saturday", "times": "12pm to 1am" },
+      { "day": "Sunday", "times": "12.30pm to 12am" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "51.5367656", "lng": "-0.1014557" },
+      "address": ["21-31 Essex Rd", "London N1 2SA", "UK"],
+      "telephone": "t: 02073597474",
+      "email": "angelbar@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog Angel",
+        "url": "https://facebook.com/brewdogangel"
+      },
+      {
+        "network": "twitter",
+        "handle": "@brewdogangel",
+        "url": "https://www.twitter.com/brewdogangel"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdogangel",
+        "url": "https://www.instagram.com/brewdogangel"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "12:00 - 23:00" },
+      { "day": "Tuesday", "times": "12:00 - 23:00" },
+      { "day": "Wednesday", "times": "12:00 - 23:00" },
+      { "day": "Thursday", "times": "12:00 - 23:00" },
+      { "day": "Friday", "times": "12:00 - 23:00" },
+      { "day": "Saturday", "times": "12:00 - 23:00" },
+      { "day": "Sunday", "times": "12:00 - 23:00" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "52.4770332", "lng": "-1.9014063" },
+      "address": ["81 John Bright St", "Birmingham B1 1BL", "UK"],
+      "telephone": "",
+      "email": "birminghambar@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog Birmingham",
+        "url": "http://www.facebook.com/brewdogbarbirmingham"
+      },
+      {
+        "network": "twitter",
+        "handle": "@brewdogbirm",
+        "url": "https://www.twitter.com/brewdogbirm"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdogbirm",
+        "url": "https://www.instagram.com/brewdogbirm"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "12pm - 12am" },
+      { "day": "Tuesday", "times": "12pm - 12am" },
+      { "day": "Wednesday", "times": "12pm - 12am" },
+      { "day": "Thursday", "times": "12pm - 12am" },
+      { "day": "Friday", "times": "12pm - 1am" },
+      { "day": "Saturday", "times": "11am - 1am" },
+      { "day": "Sunday", "times": "11am - 12am" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "50.8251239", "lng": "-0.1353262" },
+      "address": [
+        "Hectors House",
+        "52-54 Grand Parade",
+        "Brighton BN2 9QA",
+        "UK"
+      ],
+      "telephone": "",
+      "email": "brightonbar@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog Brighton",
+        "url": "http://www.facebook.com/brewdogbrighton"
+      },
+      {
+        "network": "twitter",
+        "handle": "@brewdogbrighton",
+        "url": "https://www.twitter.com/brewdogbrighton"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdogbrighton",
+        "url": "https://www.instagram.com/brewdogbrighton"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "12pm to 11pm" },
+      { "day": "Tuesday", "times": "12pm to 11pm" },
+      { "day": "Wednesday", "times": "12pm to 12am" },
+      { "day": "Thursday", "times": "12pm to 12am" },
+      { "day": "Friday", "times": "12pm to 1am" },
+      { "day": "Saturday", "times": "12pm to 1am" },
+      { "day": "Sunday", "times": "12pm to 11pm" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "51.4535796", "lng": "-2.5925245" },
+      "address": ["58 Baldwin St", "Bristol BS1 1QW", "UK"],
+      "telephone": "t: +44 117 927 9258",
+      "email": "bristolbar@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog Bristol",
+        "url": "http://www.facebook.com/BrewDogBarBristol"
+      },
+      {
+        "network": "twitter",
+        "handle": "@BrewDogBristol",
+        "url": "https://www.twitter.com/BrewDogBristol"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdogbristol",
+        "url": "https://www.instagram.com/brewdogbristol"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "12pm - 12am" },
+      { "day": "Tuesday", "times": "12pm - 12am" },
+      { "day": "Wednesday", "times": "12pm - 12am" },
+      { "day": "Thursday", "times": "12pm - 1am" },
+      { "day": "Friday", "times": "12pm - 1am" },
+      { "day": "Saturday", "times": "12pm - 1am" },
+      { "day": "Sunday", "times": "12pm - 12am" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "51.5383435", "lng": "-0.1409230" },
+      "address": ["113 Bayham St", "Camden Town", "London NW1", "UK"],
+      "telephone": "t: +44 20 7284 4626",
+      "email": "camdenbar@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog Camden",
+        "url":
+          "http://www.facebook.com/pages/Brewdog-Bar-Camden/218894094796605"
+      },
+      {
+        "network": "twitter",
+        "handle": "@brewdogcamden",
+        "url": "https://www.twitter.com/brewdogcamden"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdogcamden",
+        "url": "https://www.instagram.com/brewdogcamden"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "12pm - 11:30pm" },
+      { "day": "Tuesday", "times": "12pm - 11:30pm" },
+      { "day": "Wednesday", "times": "12pm - 11:30pm" },
+      { "day": "Thursday", "times": "12pm - 11:30pm" },
+      { "day": "Friday", "times": "12pm - 12am" },
+      { "day": "Saturday", "times": "12pm - 12am" },
+      { "day": "Sunday", "times": "12pm -10:30pm" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "51.4786381", "lng": "-3.1790472" },
+      "address": ["31 Westgate St", "Cardiff CF10 1EH", "UK"],
+      "telephone": "t: +44 29 2023 1684",
+      "email": "cardiffbar@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog Cardiff",
+        "url": "https://www.facebook.com/BrewDogBarCardiff"
+      },
+      {
+        "network": "twitter",
+        "handle": "@BrewDogCardiff",
+        "url": "https://www.twitter.com/BrewDogCardiff"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdogcardiff",
+        "url": "https://www.instagram.com/brewdogcardiff"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "4 - 11PM" },
+      { "day": "Tuesday", "times": "4 - 11PM" },
+      { "day": "Wednesday", "times": "4 - 11PM" },
+      { "day": "Thursday", "times": "MIDDAY - MIDNIGHT" },
+      { "day": "Friday", "times": "MIDDAY - 1AM" },
+      { "day": "Saturday", "times": "MIDDAY - 1AM" },
+      { "day": "Sunday", "times": "MIDDAY - 11PM" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "57.1475762", "lng": "-2.0944948" },
+      "address": ["5-9 Union St", "Aberdeen AB11 5BU", "UK"],
+      "telephone": "t: +44 1224 586650",
+      "email": "castlegatebar@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog Castlegate",
+        "url": "http://www.facebook.com/brewdogcastlegate"
+      },
+      {
+        "network": "twitter",
+        "handle": "@brewdogcastleg",
+        "url": "https://www.twitter.com/brewdogcastleg"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdogcastlegate",
+        "url": "https://www.instagram.com/brewdogcastlegate"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "11am-12am" },
+      { "day": "Tuesday", "times": "11am-12am" },
+      { "day": "Wednesday", "times": "11am-12am" },
+      { "day": "Thursday", "times": "11am-12am" },
+      { "day": "Friday", "times": "11am-1am" },
+      { "day": "Saturday", "times": "10am-1am" },
+      { "day": "Sunday", "times": "10am-12am" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "51.4608426", "lng": "-0.1629637" },
+      "address": ["11-13 Battersea Rise", "London SW11 1HG", "UK"],
+      "telephone": "t: +44 20 7223 6346",
+      "email": "ClaphamJBar@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog Clapham Junction",
+        "url": "http://www.facebook.com/brewdogclapham"
+      },
+      {
+        "network": "twitter",
+        "handle": "@BrewDogClaphamJ",
+        "url": "https://www.twitter.com/BrewDogClaphamJ"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdogclaphamj",
+        "url": "https://www.instagram.com/brewdogclaphamj"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "4pm - 12am" },
+      { "day": "Tuesday", "times": "4pm - 12am" },
+      { "day": "Wednesday", "times": "4pm - 12am" },
+      { "day": "Thursday", "times": "4pm - 12am" },
+      { "day": "Friday", "times": "12pm - 12am" },
+      { "day": "Saturday", "times": "12pm - 12am" },
+      { "day": "Sunday", "times": "12pm - 11.30pm" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "51.5223905", "lng": "-0.1037717" },
+      "address": [
+        "45-47 Clerkenwell Rd",
+        "Clerkenwell",
+        "London EC1M 5RS",
+        "UK"
+      ],
+      "telephone": "t: +44 20 7608 2989",
+      "email": "clerkenwellbar@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog Clerkenwell",
+        "url": "http://www.facebook.com/brewdogclerkenwell"
+      },
+      {
+        "network": "twitter",
+        "handle": "@brewdogcwell",
+        "url": "https://www.twitter.com/brewdogcwell"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdogcwell",
+        "url": "https://www.instagram.com/brewdogcwell"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "12pm - 11pm" },
+      { "day": "Tuesday", "times": "12pm - 11pm" },
+      { "day": "Wednesday", "times": "12pm - 11pm" },
+      { "day": "Thursday", "times": "12pm - 12am" },
+      { "day": "Friday", "times": "12pm - 12am" },
+      { "day": "Saturday", "times": "12pm - 11pm" },
+      { "day": "Sunday", "times": "Closed" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "55.8593709", "lng": "-4.2479974" },
+      "address": ["99 Hutcheson St", "Glasgow G1 1SN", "UK"],
+      "telephone": "t: +44 141 552 6363",
+      "email": "doghousemerchantcity@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog DogHouse Merchant City",
+        "url": "https://www.facebook.com/doghousemerchantcity"
+      },
+      {
+        "network": "twitter",
+        "handle": "@DogHouseMCity",
+        "url": "https://www.twitter.com/DogHouseMCity"
+      },
+      {
+        "network": "instagram",
+        "handle": "@doghousemcity",
+        "url": "https://www.instagram.com/doghousemcity"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "11am - 12am" },
+      { "day": "Tuesday", "times": "11am - 12am" },
+      { "day": "Wednesday", "times": "11am - 12am" },
+      { "day": "Thursday", "times": "11am - 12am" },
+      { "day": "Friday", "times": "11am - 12am" },
+      { "day": "Saturday", "times": "10am - 12am" },
+      { "day": "Sunday", "times": "10am - 12am" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "57.3716092", "lng": "-2.0483357" },
+      "address": ["Balmacassie Dr", "Ellon AB41 8QR", "UK"],
+      "telephone": "",
+      "email": "dogtap@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog DogTap & DogWalk Brewery Tour",
+        "url": "http://www.facebook.com/brewdogdogtap"
+      },
+      {
+        "network": "twitter",
+        "handle": "@brewdogdogtap",
+        "url": "https://www.twitter.com/brewdogdogtap"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdogdogtap",
+        "url": "https://www.instagram.com/brewdogdogtap"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "1200 - 2200" },
+      { "day": "Tuesday", "times": "1200 - 2200" },
+      { "day": "Wednesday", "times": "1200 - 2200" },
+      { "day": "Thursday", "times": "1200 - 2200" },
+      { "day": "Friday", "times": "1200 - 2200" },
+      { "day": "Saturday", "times": "1100 - 2200" },
+      { "day": "Sunday", "times": "1100 - 2200" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "56.4633787", "lng": "-2.9696602" },
+      "address": ["Panmure St", "Dundee DD1 2BW", "UK"],
+      "telephone": "t: +44 1382 221738",
+      "email": "dundeebar@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog Dundee",
+        "url": "http://www.facebook.com/brewdogdundee"
+      },
+      {
+        "network": "twitter",
+        "handle": "@BrewDogDundee",
+        "url": "https://www.twitter.com/BrewDogDundee"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdogdundee",
+        "url": "https://www.instagram.com/brewdogdundee"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "12-12" },
+      { "day": "Tuesday", "times": "12-12" },
+      { "day": "Wednesday", "times": "12-12" },
+      { "day": "Thursday", "times": "12-12" },
+      { "day": "Friday", "times": "12-12" },
+      { "day": "Saturday", "times": "12-12" },
+      { "day": "Sunday", "times": "12-12" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "55.9483998", "lng": "-3.1893704" },
+      "address": ["143 Cowgate", "Edinburgh EH1 1JS", "UK"],
+      "telephone": "t: +44 131 220 6517",
+      "email": "edinburghbar@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog Edinburgh",
+        "url": "http://www.facebook.com/brewdogbaredinburgh"
+      },
+      {
+        "network": "twitter",
+        "handle": "@brewdogedin",
+        "url": "https://www.twitter.com/brewdogedin"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdogedin",
+        "url": "https://www.instagram.com/brewdogedin"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "12 - 1" },
+      { "day": "Tuesday", "times": "12 - 1" },
+      { "day": "Wednesday", "times": "12 - 1" },
+      { "day": "Thursday", "times": "12 - 1" },
+      { "day": "Friday", "times": "12 - 1" },
+      { "day": "Saturday", "times": "12 - 1" },
+      { "day": "Sunday", "times": "12 - 1" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "55.8682678", "lng": "-4.2921124" },
+      "address": ["1397 Argyle St", "Glasgow G3 8AN", "UK"],
+      "telephone": "t: +44 141 334 7175",
+      "email": "glasgowbar@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog Glasgow",
+        "url": "http://www.facebook.com/brewdogbarglasgow"
+      },
+      {
+        "network": "twitter",
+        "handle": "@brewdogglasgow",
+        "url": "https://www.twitter.com/brewdogglasgow"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdogglasgow",
+        "url": "https://www.instagram.com/brewdogglasgow"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "12pm - 12am" },
+      { "day": "Tuesday", "times": "12pm - 12am" },
+      { "day": "Wednesday", "times": "12pm - 12am" },
+      { "day": "Thursday", "times": "12pm - 12am" },
+      { "day": "Friday", "times": "12pm - 12am" },
+      { "day": "Saturday", "times": "12pm - 12am" },
+      { "day": "Sunday", "times": "12pm - 12am" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "53.7954884", "lng": "-1.5404516" },
+      "address": ["The White Cloth Hall", "Leeds LS2", "UK"],
+      "telephone": "t: +44 113 246 1611",
+      "email": "leedsbar@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog Leeds",
+        "url": "http://www.facebook.com/pages/BrewDog-Bar-Leeds/161571177300018"
+      },
+      {
+        "network": "twitter",
+        "handle": "@BrewDogBarLeeds",
+        "url": "https://www.twitter.com/BrewDogBarLeeds"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdogbarleeds",
+        "url": "https://www.instagram.com/brewdogbarleeds"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "12:00-23:30" },
+      { "day": "Tuesday", "times": "12:00-23:30" },
+      { "day": "Wednesday", "times": "12:00-23:30" },
+      { "day": "Thursday", "times": "12:00-23:30" },
+      { "day": "Friday", "times": "12:00-23:30" },
+      { "day": "Saturday", "times": "12:00-23:30" },
+      { "day": "Sunday", "times": "12:00-23:00" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "52.6335118", "lng": "-1.1349780" },
+      "address": ["8 Friar Ln", "Leicester LE1", "UK"],
+      "telephone": "t: +44 116 262 3566",
+      "email": "leicester.bookings@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog Leicester",
+        "url": "https://www.facebook.com/brewdogleicester"
+      },
+      {
+        "network": "twitter",
+        "handle": "@brewdogleics",
+        "url": "https://www.twitter.com/brewdogleics"
+      },
+      {
+        "network": "instagram",
+        "handle": "@@brewdogleics",
+        "url": "https://www.instagram.com/@brewdogleics"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "4:00pm - 11:00pm" },
+      { "day": "Tuesday", "times": "4:00pm - 11:00pm" },
+      { "day": "Wednesday", "times": "4:00pm - 11:00pm" },
+      { "day": "Thursday", "times": "4:00pm - 11:00pm" },
+      { "day": "Friday", "times": "12:00pm - 12:00 am" },
+      { "day": "Saturday", "times": "12:00pm - 12:00am" },
+      { "day": "Sunday", "times": "12:00pm - 10:00pm" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "53.4018334", "lng": "-2.9771761" },
+      "address": ["8 Colquitt St", "Liverpool L1 4DE", "UK"],
+      "telephone": "t: +44 151 707 6559",
+      "email": "liverpoolbar@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog Liverpool",
+        "url": "https://www.facebook.com/brewdogliverpool"
+      },
+      {
+        "network": "twitter",
+        "handle": "@BrewDogBarLPool",
+        "url": "https://www.twitter.com/BrewDogBarLPool"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdogliverpool",
+        "url": "https://www.instagram.com/brewdogliverpool"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "12:00-00:00" },
+      { "day": "Tuesday", "times": "12:00-00:00" },
+      { "day": "Wednesday", "times": "12:00-00:00" },
+      { "day": "Thursday", "times": "12:00-00:00" },
+      { "day": "Friday", "times": "12:00-00:00" },
+      { "day": "Saturday", "times": "11:00-00:00" },
+      { "day": "Sunday", "times": "11:00-00:00" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "55.9475844", "lng": "-3.2072564" },
+      "address": ["50 Lothian Rd", "Edinburgh EH3 9BY", "UK"],
+      "telephone": "t: +44 131 228 2305",
+      "email": "lothianroadbar@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog Lothian Road Edinburgh",
+        "url": "https://facebook.com/brewdoglothianroad "
+      },
+      {
+        "network": "twitter",
+        "handle": "@brewdoglothian",
+        "url": "https://www.twitter.com/brewdoglothian"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdoglothianroad",
+        "url": "https://www.instagram.com/brewdoglothianroad"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "12PM - 1AM " },
+      { "day": "Tuesday", "times": "12PM - 1AM " },
+      { "day": "Wednesday", "times": "12PM - 1AM " },
+      { "day": "Thursday", "times": "12PM - 1AM " },
+      { "day": "Friday", "times": "12PM - 1AM " },
+      { "day": "Saturday", "times": "11AM - 1AM" },
+      { "day": "Sunday", "times": "11AM - 1AM" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "53.4780023", "lng": "-2.2472261" },
+      "address": [
+        "Scottish Mutual House",
+        "35 Peter St",
+        "Manchester M2 5BG",
+        "UK"
+      ],
+      "telephone": "t: +44 161 832 1922",
+      "email": "manchesterbar@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog Manchester",
+        "url":
+          "http://www.facebook.com/pages/Brewdog-Bar-Manchester/212762658788486"
+      },
+      {
+        "network": "twitter",
+        "handle": "@BrewDogMancs",
+        "url": "https://www.twitter.com/BrewDogMancs"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdogmancs",
+        "url": "https://www.instagram.com/brewdogmancs"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "12pm - 1am" },
+      { "day": "Tuesday", "times": "12pm - 1am" },
+      { "day": "Wednesday", "times": "12pm - 1am" },
+      { "day": "Thursday", "times": "12pm - 1am" },
+      { "day": "Friday", "times": "12pm - 2am" },
+      { "day": "Saturday", "times": "11am - 2am" },
+      { "day": "Sunday", "times": "11am - Midnight" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "54.9704521", "lng": "-1.6097310" },
+      "address": ["Dean St", "Newcastle upon Tyne NE1 1PG", "UK"],
+      "telephone": "t: +44 191 261 6586",
+      "email": "newcastlebar@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog Newcastle",
+        "url":
+          "https://www.facebook.com/pages/Brewdog-Bar-Newcastle/277213335631442"
+      },
+      {
+        "network": "twitter",
+        "handle": "@BrewDogNewc",
+        "url": "https://www.twitter.com/BrewDogNewc"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdognewc",
+        "url": "https://www.instagram.com/brewdognewc"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "12:00-00:00" },
+      { "day": "Tuesday", "times": "12:00-00:00" },
+      { "day": "Wednesday", "times": "12:00-00:00" },
+      { "day": "Thursday", "times": "12:00-00:00" },
+      { "day": "Friday", "times": "12:00-01:00" },
+      { "day": "Saturday", "times": "12:00-01:00" },
+      { "day": "Sunday", "times": "12:00-00:00" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "53.8007681", "lng": "-1.5367348" },
+      "address": ["New York Rd", "Leeds LS2 7PF", "UK"],
+      "telephone": "t: +44 113 391 2950",
+      "email": "northstreetleeds@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog North Street Leeds",
+        "url": "https://www.facebook.com/brewdognorthstreet"
+      },
+      {
+        "network": "twitter",
+        "handle": "@BrewDogLeedsNS",
+        "url": "https://www.twitter.com/BrewDogLeedsNS"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdognorthstreetleeds",
+        "url": "https://www.instagram.com/brewdognorthstreetleeds"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "12pm - 11pm" },
+      { "day": "Tuesday", "times": "12pm - 11pm" },
+      { "day": "Wednesday", "times": "12pm - 11pm" },
+      { "day": "Thursday", "times": "12pm - 11pm" },
+      { "day": "Friday", "times": "12pm - 1am" },
+      { "day": "Saturday", "times": "12pm - 1am" },
+      { "day": "Sunday", "times": "12pm - 11pm" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "52.6301580", "lng": "1.2977951" },
+      "address": ["1 Queen St", "Norwich NR2 4SG", "UK"],
+      "telephone": "t: +44 1603 624317",
+      "email": "norwichbar@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog Norwich",
+        "url": "https://www.facebook.com/brewdognorwich"
+      },
+      {
+        "network": "twitter",
+        "handle": "@BrewDogNorwich",
+        "url": "https://www.twitter.com/BrewDogNorwich"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdognorwich",
+        "url": "https://www.instagram.com/brewdognorwich"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "12pm - 12am" },
+      { "day": "Tuesday", "times": "12pm - 12am" },
+      { "day": "Wednesday", "times": "12pm - 12am" },
+      { "day": "Thursday", "times": "12pm - 12am" },
+      { "day": "Friday", "times": "12pm - 2am" },
+      { "day": "Saturday", "times": "11am - 2am" },
+      { "day": "Sunday", "times": "11am - 11pm" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "52.9541103", "lng": "-1.1436979" },
+      "address": ["20-22 Broad St", "Nottingham NG1 3AL", "UK"],
+      "telephone": "t: +44 115 958 3613",
+      "email": "nottinghambar@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog Nottingham",
+        "url":
+          "https://www.facebook.com/pages/BrewDog-Bar-Nottingham/207677995990550"
+      },
+      {
+        "network": "twitter",
+        "handle": "@BrewDogNotts",
+        "url": "https://www.twitter.com/BrewDogNotts"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdognotts",
+        "url": "https://www.instagram.com/brewdognotts"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "12PM-12AM" },
+      { "day": "Tuesday", "times": "12PM-12AM" },
+      { "day": "Wednesday", "times": "12PM-12AM" },
+      { "day": "Thursday", "times": "12PM-12AM" },
+      { "day": "Friday", "times": "12PM-1AM" },
+      { "day": "Saturday", "times": "11AM-1AM" },
+      { "day": "Sunday", "times": "12PM-12AM" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "57.37038278887657", "lng": "-2.0538933370788754" },
+      "address": [
+        "Balmacassie Industrial Estate",
+        "Ellon",
+        "Aberdeenshire",
+        "AB41 8BX"
+      ],
+      "telephone": "t: 01358 287 153",
+      "email": "overworkstaproom@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog Overworks Tap Room",
+        "url": "https://facebook.com/OverWorksTapRoom"
+      },
+      {
+        "network": "twitter",
+        "handle": "@overworkstap",
+        "url": "https://www.twitter.com/overworkstap"
+      },
+      {
+        "network": "instagram",
+        "handle": "@overworkstaproom",
+        "url": "https://www.instagram.com/overworkstaproom"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "Closed" },
+      { "day": "Tuesday", "times": "Closed" },
+      { "day": "Wednesday", "times": "Closed" },
+      { "day": "Thursday", "times": "Closed" },
+      { "day": "Friday", "times": "17:00 - 22:00" },
+      { "day": "Saturday", "times": "12:00 - 22:00" },
+      { "day": "Sunday", "times": "12:00 - 18:00" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "51.7480816", "lng": "-1.2372205" },
+      "address": ["119 Cowley Rd", "Oxford OX4 1HU", "UK"],
+      "telephone": "t: +44 1865 580176",
+      "email": "OxfordBar@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog Oxford",
+        "url": "https://www.facebook.com/BrewDogOxford/"
+      },
+      {
+        "network": "twitter",
+        "handle": "@brewdogoxford",
+        "url": "https://www.twitter.com/brewdogoxford"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdogoxford",
+        "url": "https://www.instagram.com/brewdogoxford"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "12pm - 12am " },
+      { "day": "Tuesday", "times": "12pm - 12am " },
+      { "day": "Wednesday", "times": "12pm - 12am " },
+      { "day": "Thursday", "times": "12pm - 12am " },
+      { "day": "Friday", "times": "12pm - 1am" },
+      { "day": "Saturday", "times": "11am - 1am" },
+      { "day": "Sunday", "times": "12pm - 12am " }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "51.4535168", "lng": "-0.9747502" },
+      "address": ["Castle St", "Reading RG1 7SB", "UK"],
+      "telephone": "",
+      "email": "readingbar@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog Reading",
+        "url": "https://www.facebook.com/BrewDogReading/"
+      },
+      {
+        "network": "twitter",
+        "handle": "@brewdogreading",
+        "url": "https://www.twitter.com/brewdogreading"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdogreading",
+        "url": "https://www.instagram.com/brewdogreading"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "12PM - 12AM" },
+      { "day": "Tuesday", "times": "12PM - 12AM" },
+      { "day": "Wednesday", "times": "12PM - 12AM" },
+      { "day": "Thursday", "times": "12PM - 1AM" },
+      { "day": "Friday", "times": "12PM - 2AM" },
+      { "day": "Saturday", "times": "11AM - 2AM" },
+      { "day": "Sunday", "times": "11AM - 12AM" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "53.3795623", "lng": "-1.4771068" },
+      "address": ["Eldon Court", "Devonshire St", "Sheffield S3 7SF", "UK"],
+      "telephone": "t: +44 114 241 4193",
+      "email": "sheffieldbar@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog Sheffield",
+        "url":
+          "https://www.facebook.com/pages/BrewDog-Sheffield/430903910377786"
+      },
+      {
+        "network": "twitter",
+        "handle": "@brewdogsheff",
+        "url": "https://www.twitter.com/brewdogsheff"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdogsheff",
+        "url": "https://www.instagram.com/brewdogsheff"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "12pm - 12am" },
+      { "day": "Tuesday", "times": "12pm - 12am" },
+      { "day": "Wednesday", "times": "12pm - 12am" },
+      { "day": "Thursday", "times": "12pm - 12am" },
+      { "day": "Friday", "times": "12pm - 1am" },
+      { "day": "Saturday", "times": "12pm - 1am" },
+      { "day": "Sunday", "times": "12pm - 12am" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "51.5028620", "lng": "-0.2239560" },
+      "address": ["15 Goldhawk Rd", "Shepherd's Bush", "London W12 8QQ", "UK"],
+      "telephone": "t: +44 20 8749 8094",
+      "email": "shepherdsbushbar@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog Shepherd's Bush",
+        "url": "https://www.facebook.com/brewdogshepbush"
+      },
+      {
+        "network": "twitter",
+        "handle": "@BrewDogShepBush",
+        "url": "https://www.twitter.com/BrewDogShepBush"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdogshepbush",
+        "url": "https://www.instagram.com/brewdogshepbush"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "12pm - 12am" },
+      { "day": "Tuesday", "times": "12pm - 12am" },
+      { "day": "Wednesday", "times": "12pm - 12am" },
+      { "day": "Thursday", "times": "12pm - 12am" },
+      { "day": "Friday", "times": "12pm - 12am" },
+      { "day": "Saturday", "times": "11am - 12am" },
+      { "day": "Sunday", "times": "11am - 10:30pm" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "51.5133818", "lng": "-0.1287508" },
+      "address": [
+        "Marquis of Granby",
+        "142 Shaftesbury Ave",
+        "London WC2H 8HJ",
+        "UK"
+      ],
+      "telephone": "",
+      "email": "sevendialsbookings@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog Seven Dials",
+        "url": "https://www.facebook.com/BrewDogSevenDials/"
+      },
+      {
+        "network": "twitter",
+        "handle": "@brewdog7dials",
+        "url": "https://www.twitter.com/brewdog7dials"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdog7dials",
+        "url": "https://www.instagram.com/brewdog7dials"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "11 AM - 11.30 PM" },
+      { "day": "Tuesday", "times": "11 AM - 11.30 PM" },
+      { "day": "Wednesday", "times": "11 AM - 11.30 PM" },
+      { "day": "Thursday", "times": "11 AM - 11.30 PM" },
+      { "day": "Friday", "times": "11 AM - 12 AM" },
+      { "day": "Saturday", "times": "11 AM - 12 AM" },
+      { "day": "Sunday", "times": "12 PM - 10.30PM " }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "51.5245866", "lng": "-0.0726124" },
+      "address": ["51 Bethnal Green Rd", "London E1 6LA", "UK"],
+      "telephone": "t: +44 20 7729 8476",
+      "email": "shoreditchbar@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog Shoreditch",
+        "url": "http://www.facebook.com/brewdogbarshoreditch"
+      },
+      {
+        "network": "twitter",
+        "handle": "@brewdogshored",
+        "url": "https://www.twitter.com/brewdogshored"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdogshoreditch",
+        "url": "https://www.instagram.com/brewdogshoreditch"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "12:00pm - 12:00am" },
+      { "day": "Tuesday", "times": "12:00pm - 12:00am" },
+      { "day": "Wednesday", "times": "12:00pm - 12:00am" },
+      { "day": "Thursday", "times": "12:00pm - 12:00am" },
+      { "day": "Friday", "times": "12:00am - 2:00am " },
+      { "day": "Saturday", "times": "11:00am - 2:00am" },
+      { "day": "Sunday", "times": "11:00pm - 12:00am" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "51.5150931", "lng": "-0.1372348" },
+      "address": ["21 Poland St", "Soho", "London W1F 8QG", "UK"],
+      "telephone": "t: +44 20 7287 8029",
+      "email": "sohobar@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog Soho",
+        "url": "https://www.facebook.com/brewdogsoho"
+      },
+      {
+        "network": "twitter",
+        "handle": "@BrewDogSoho",
+        "url": "https://www.twitter.com/BrewDogSoho"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdogsoho",
+        "url": "https://www.instagram.com/brewdogsoho"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "11:00am to 11:30pm" },
+      { "day": "Tuesday", "times": "11:00am to 11:30pm" },
+      { "day": "Wednesday", "times": "11:00am to 11:30pm" },
+      { "day": "Thursday", "times": "11:00am to 11:30pm" },
+      { "day": "Friday", "times": "11:00am to 12:00am" },
+      { "day": "Saturday", "times": "11:00am to 12:00am" },
+      { "day": "Sunday", "times": "11:00am to 10:30pm" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "50.9132688", "lng": "-1.4055583" },
+      "address": ["18A Upper Bannister St", "Southampton SO15 2EF", "UK"],
+      "telephone": "t: +44 23 8022 0895",
+      "email": "southamptonbar@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog Southampton",
+        "url": "https://www.facebook.com/BrewDogSouthampton/"
+      },
+      {
+        "network": "twitter",
+        "handle": "@BrewDogShampton",
+        "url": "https://www.twitter.com/BrewDogShampton"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdogshampton",
+        "url": "https://www.instagram.com/brewdogshampton"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "12pm - 11pm" },
+      { "day": "Tuesday", "times": "12pm - 11pm" },
+      { "day": "Wednesday", "times": "12pm - 11pm" },
+      { "day": "Thursday", "times": "12pm - 11pm" },
+      { "day": "Friday", "times": "12pm - 12am" },
+      { "day": "Saturday", "times": "12pm - 12am" },
+      { "day": "Sunday", "times": "12pm - 11pm" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "56.1192118", "lng": "-3.9391442" },
+      "address": ["7 Baker St", "Stirling FK8 1BJ", "UK"],
+      "telephone": "t: +44 1786 440043",
+      "email": "stirlingbar@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog Stirling",
+        "url": "https://www.facebook.com/BrewDog-Stirling-442536932597682/"
+      },
+      {
+        "network": "twitter",
+        "handle": "@BrewDogStirling",
+        "url": "https://www.twitter.com/BrewDogStirling"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdogstirling",
+        "url": "https://www.instagram.com/brewdogstirling"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "12:00pm - 12:00am" },
+      { "day": "Tuesday", "times": "12:00pm - 12:00am" },
+      { "day": "Wednesday", "times": "12:00pm - 12:00am" },
+      { "day": "Thursday", "times": "12:00pm - 12:00am" },
+      { "day": "Friday", "times": "12:00pm - 1:00am" },
+      { "day": "Saturday", "times": "12:00pm - 1:00am" },
+      { "day": "Sunday", "times": "12:00pm - 12:00am" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "51.5101291", "lng": "-0.0814359" },
+      "address": ["21 Great Tower St", "London EC3R 5AR", "UK"],
+      "telephone": "t: 020 7929 2545",
+      "email": "towerhillbookings@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "twitter",
+        "handle": "@brewdogtowerh",
+        "url": "https://www.twitter.com/brewdogtowerh"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdogtowerhill",
+        "url": "https://www.instagram.com/brewdogtowerhill"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "8.00 - 23.00" },
+      { "day": "Tuesday", "times": "8.00 - 23.00" },
+      { "day": "Wednesday", "times": "8.00 - 23.00" },
+      { "day": "Thursday", "times": "8.00 - 00.00" },
+      { "day": "Friday", "times": "8.00 - 00.00" },
+      { "day": "Saturday", "times": "11.00 - 22.00" },
+      { "day": "Sunday", "times": "12.00 - 22.00" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "53.9565499", "lng": "-1.0903629" },
+      "address": ["130-134 Micklegate", "York YO1 6JX", "UK"],
+      "telephone": "t: +44 1904 620773",
+      "email": "yorkbar@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog York",
+        "url": "https://www.facebook.com/BrewDogYork/"
+      },
+      {
+        "network": "twitter",
+        "handle": "@brewdogyork",
+        "url": "https://www.twitter.com/brewdogyork"
+      },
+      {
+        "network": "instagram",
+        "handle": "@BrewDogYork",
+        "url": "https://www.instagram.com/BrewDogYork"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "12:00pm - 12:00am" },
+      { "day": "Tuesday", "times": "12:00pm - 12:00am" },
+      { "day": "Wednesday", "times": "12:00pm - 12:00am" },
+      { "day": "Thursday", "times": "12:00pm - 12:00am" },
+      { "day": "Friday", "times": "12:00pm - 12:00am" },
+      { "day": "Saturday", "times": "12:00pm - 12:00am" },
+      { "day": "Sunday", "times": "12:00pm - 12:00am" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": {},
+      "address": [""],
+      "telephone": "t: +1 614-908-3051",
+      "email": "Dogtapcolumbus@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDogDogTap Columbus & DogWalk USA",
+        "url": "https://www.facebook.com/DogTapColumbus"
+      },
+      {
+        "network": "twitter",
+        "handle": "@DogTapColumbus",
+        "url": "https://www.twitter.com/DogTapColumbus"
+      },
+      {
+        "network": "instagram",
+        "handle": "@ohiodogtap",
+        "url": "https://www.instagram.com/ohiodogtap"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "11AM - 10PM" },
+      { "day": "Tuesday", "times": "11AM - 11PM" },
+      { "day": "Wednesday", "times": "11AM - 11PM" },
+      { "day": "Thursday", "times": "11AM - 11PM" },
+      { "day": "Friday", "times": "11AM - 12AM" },
+      { "day": "Saturday", "times": "11AM - 12AM" },
+      { "day": "Sunday", "times": "11AM - 10PM" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "39.9571922", "lng": "-83.0123653" },
+      "address": ["463 W Town St", "Columbus", "OH 43215", "USA"],
+      "telephone": "",
+      "email": "franklintonbar@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog Franklinton",
+        "url": "https://www.facebook.com/BrewDogFranklinton/"
+      },
+      {
+        "network": "twitter",
+        "handle": "@BrewDogFTON",
+        "url": "https://www.twitter.com/BrewDogFTON"
+      },
+      {
+        "network": "instagram",
+        "handle": "@BrewDogFranklinton",
+        "url": "https://www.instagram.com/BrewDogFranklinton"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "11:00am - 12:00am" },
+      { "day": "Tuesday", "times": "11:00am - 12:00am" },
+      { "day": "Wednesday", "times": "11:00am - 12:00am" },
+      { "day": "Thursday", "times": "11:00am - 12:00am" },
+      { "day": "Friday", "times": "11:00am - 2:00am" },
+      { "day": "Saturday", "times": "11:00am - 2:00am" },
+      { "day": "Sunday", "times": "11:00am - 11:00pm" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "39.9863668", "lng": "-83.0056485" },
+      "address": ["1175 N High St", "Columbus", "OH 43201", "USA"],
+      "telephone": "t: 614-908-3053",
+      "email": "shortnorthbar@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog Short North",
+        "url": "https://facebook.com/brewdogshortnorth"
+      },
+      {
+        "network": "twitter",
+        "handle": "@brewdogshortn",
+        "url": "https://www.twitter.com/brewdogshortn"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdogshortnorth",
+        "url": "https://www.instagram.com/brewdogshortnorth"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "3:00pm - 2:00am" },
+      { "day": "Tuesday", "times": "3:00pm - 2:00am" },
+      { "day": "Wednesday", "times": "3:00pm - 2:00am" },
+      { "day": "Thursday", "times": "3:00pm - 2:00am" },
+      { "day": "Friday", "times": "11:00am - 2:00am" },
+      { "day": "Saturday", "times": "11:00am - 2:00am" },
+      { "day": "Sunday", "times": "11:00am - 11:00pm" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "41.3857423", "lng": "2.1581333" },
+      "address": ["Carrer de Casanova", "69", "08011 Barcelona", "Spain"],
+      "telephone": "t: +34 934 88 59 79",
+      "email": "barcelonabar@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog Barcelona",
+        "url": "https://www.facebook.com/BrewDogBarna"
+      },
+      {
+        "network": "twitter",
+        "handle": "@BrewDogBarna",
+        "url": "https://www.twitter.com/BrewDogBarna"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdogbarcelona",
+        "url": "https://www.instagram.com/brewdogbarcelona"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "17:00-00:00" },
+      { "day": "Tuesday", "times": "17:00-00:00" },
+      { "day": "Wednesday", "times": "17:00-00:00" },
+      { "day": "Thursday", "times": "17:00-02:00" },
+      { "day": "Friday", "times": "12:00-02:00" },
+      { "day": "Saturday", "times": "12:00-02:00" },
+      { "day": "Sunday", "times": "12:00-00:00" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "52.5329719", "lng": "13.3955621" },
+      "address": ["Ackerstraße 29", "10115 Berlin", "Germany"],
+      "telephone": "t: +49 30 48477770",
+      "email": "berlinbar@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog Berlin Mitte",
+        "url": "https://www.facebook.com/brewdogberlinmitte"
+      },
+      {
+        "network": "twitter",
+        "handle": "@BrewDogMitte",
+        "url": "https://www.twitter.com/BrewDogMitte"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdogberlinmitte",
+        "url": "https://www.instagram.com/brewdogberlinmitte"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "12pm - 12am" },
+      { "day": "Tuesday", "times": "12pm - 12am" },
+      { "day": "Wednesday", "times": "12pm - 12am" },
+      { "day": "Thursday", "times": "12pm - 12am" },
+      { "day": "Friday", "times": "12pm - 2am" },
+      { "day": "Saturday", "times": "12pm - 2am" },
+      { "day": "Sunday", "times": "12pm - 12am" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "44.4964569", "lng": "11.330080100000032" },
+      "address": ["via San Valentino 2F", "40122 Bologna", "Italy"],
+      "telephone": "t: 0039 051 55 28 91",
+      "email": "bolognabar@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog Bologna",
+        "url": "https://www.facebook.com/brewdogbarbologna"
+      },
+      {
+        "network": "twitter",
+        "handle": "@BrewDogBologna",
+        "url": "https://www.twitter.com/BrewDogBologna"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdogbologna",
+        "url": "https://www.instagram.com/brewdogbologna"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "7.00 pm - 01.00 am" },
+      { "day": "Tuesday", "times": "7.00 pm - 01.00 am" },
+      { "day": "Wednesday", "times": "7.00 pm - 01.00 am" },
+      { "day": "Thursday", "times": "7.00 pm - 01.00 am" },
+      { "day": "Friday", "times": "7.00 pm - 02.00 am" },
+      { "day": "Saturday", "times": "7.00 pm - 02.00 am" },
+      { "day": "Sunday", "times": "7.00 pm - 01.00 am" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "50.8460921", "lng": "4.3571001" },
+      "address": ["Putterie 20", "1000 Bruxelles", "Belgium"],
+      "telephone": "t: +32 2 513 63 55",
+      "email": "brusselsbar@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog Brussels",
+        "url": "https://www.facebook.com/BrewDogBrussels/"
+      },
+      {
+        "network": "twitter",
+        "handle": "@BrewDogBrussels",
+        "url": "https://www.twitter.com/BrewDogBrussels"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdogbrussels",
+        "url": "https://www.instagram.com/brewdogbrussels"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "11AM-12AM" },
+      { "day": "Tuesday", "times": "11AM-12AM" },
+      { "day": "Wednesday", "times": "11AM-12AM" },
+      { "day": "Thursday", "times": "11AM-12AM" },
+      { "day": "Friday", "times": "11AM-2AM" },
+      { "day": "Saturday", "times": "12PM-2AM" },
+      { "day": "Sunday", "times": "12PM-12AM" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "43.7755889", "lng": "11.2522336" },
+      "address": ["Via Faenza", "21/R", "50123 Firenze FI", "Italy"],
+      "telephone": "t: +39 055 217035",
+      "email": "firenzebar@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog Firenze",
+        "url": "http://www.facebook.com/brewdogfire"
+      },
+      {
+        "network": "twitter",
+        "handle": "@brewdogfirenze",
+        "url": "https://www.twitter.com/brewdogfirenze"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdog_firenze",
+        "url": "https://www.instagram.com/brewdog_firenze"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "12PM - 2AM" },
+      { "day": "Tuesday", "times": "12PM - 2AM" },
+      { "day": "Wednesday", "times": "12PM - 2AM" },
+      { "day": "Thursday", "times": "12PM - 2AM" },
+      { "day": "Friday", "times": "12PM - 2AM" },
+      { "day": "Saturday", "times": "12PM - 2AM" },
+      { "day": "Sunday", "times": "12PM - 2AM" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "57.7032596", "lng": "11.958951100000036" },
+      "address": ["Kungsgatan 10B", "Göteborg 41119"],
+      "telephone": "t: +46(0)31 711 77 77",
+      "email": "goteborg@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog Göteborg",
+        "url": "https://www.facebook.com/BrewDogGoteborg"
+      },
+      {
+        "network": "twitter",
+        "handle": "@brewdoggoteborg",
+        "url": "https://www.twitter.com/brewdoggoteborg"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdoggoteborg",
+        "url": "https://www.instagram.com/brewdoggoteborg"
+      }
+    ],
+    "opening_hours": []
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "59.919955", "lng": " 10.757219" },
+      "address": ["Markveien 57", "0550", "Oslo"],
+      "telephone": "",
+      "email": "grunerlokkabar@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog Grünerløkka",
+        "url": "https://www.facebook.com/BD57Bar"
+      },
+      {
+        "network": "twitter",
+        "handle": "@BD57Bar",
+        "url": "https://www.twitter.com/BD57Bar"
+      },
+      {
+        "network": "instagram",
+        "handle": "@bd57bar",
+        "url": "https://www.instagram.com/bd57bar"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "15.00 - 23.00 (Kitchen 16.00 - 21.00)" },
+      { "day": "Tuesday", "times": "15.00 - 01.00 (Kitchen 16.00 - 22.00)" },
+      { "day": "Wednesday", "times": "15.00 - 01.00 (Kitchen 16.00 - 22.00)" },
+      { "day": "Thursday", "times": "15.00 - 01.00 (Kitchen 16.00 - 22.00)" },
+      { "day": "Friday", "times": "15.00 - 01.00 (Kitchen 16.00 - 22.00)" },
+      { "day": "Saturday", "times": "12.00 - 01.00 (Kitchen 12.00 - 22.00)" },
+      { "day": "Sunday", "times": "12.00 - 23.00 (Kitchen 12.00 - 20.00)" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "60.16071249999999", "lng": "24.942224699999997" },
+      "address": ["Tarkk'ampujankatu 20", "00150 Helsinki", "Finland"],
+      "telephone": "t: +358 40 138 5881",
+      "email": "helsinkibar@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog Helsinki",
+        "url": "https://www.facebook.com/BrewDogHel?fref=ts"
+      },
+      {
+        "network": "twitter",
+        "handle": "@BrewDogHelsinki",
+        "url": "https://www.twitter.com/BrewDogHelsinki"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdoghelsinki",
+        "url": "https://www.instagram.com/brewdoghelsinki"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "14 - 00" },
+      { "day": "Tuesday", "times": "14 - 00" },
+      { "day": "Wednesday", "times": "14 - 01" },
+      { "day": "Thursday", "times": "14 - 01" },
+      { "day": "Friday", "times": "14 - 02" },
+      { "day": "Saturday", "times": "12 - 02" },
+      { "day": "Sunday", "times": "15 - 23" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "59.3365733", "lng": "18.03488530000004" },
+      "address": [
+        "Kungsholmen (Fridhemsplan/S:t Eriksplan)",
+        "S:t Eriksgatan",
+        "Stockholm"
+      ],
+      "telephone": "t: +46(0)8 650 21 10",
+      "email": "kungsholmen@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog Kungsholmen",
+        "url": "http://www.facebook.com/brewdogKungsholmen"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdogkungsholmen",
+        "url": "https://www.instagram.com/brewdogkungsholmen"
+      }
+    ],
+    "opening_hours": []
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "55.604763", "lng": " 13.004947" },
+      "address": ["Baltzarsgatan 25", "211 36 Malmö", "Sweden"],
+      "telephone": "t: 040-17 20 00 (drop us an email if we miss your call)",
+      "email": "malmo@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog Malmö",
+        "url": "https://www.facebook.com/BrewDogMalmo/"
+      },
+      {
+        "network": "twitter",
+        "handle": "@BrewDogMalmo",
+        "url": "https://www.twitter.com/BrewDogMalmo"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdogmalmo",
+        "url": "https://www.instagram.com/brewdogmalmo"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "16.00 - 23.00 " },
+      { "day": "Tuesday", "times": "16.00 - 00.00" },
+      { "day": "Wednesday", "times": "16.00 - 00.00" },
+      { "day": "Thursday", "times": "16.00 - 00.00" },
+      { "day": "Friday", "times": "14.00 - 01.00" },
+      { "day": "Saturday", "times": "14.00 - 01.00" },
+      { "day": "Sunday", "times": "14.00 - 23.00" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "41.8917874", "lng": "12.4931682" },
+      "address": ["Via delle Terme di Tito", "80", "00184 Roma RM", "Italy"],
+      "telephone": "t: +39 06 45556932",
+      "email": "romabar@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog Roma",
+        "url":
+          "https://www.facebook.com/BrewDog-Bar-Roma-1115446765135559/?fref=ts"
+      },
+      {
+        "network": "twitter",
+        "handle": "@BrewDogRoma",
+        "url": "https://www.twitter.com/BrewDogRoma"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdogroma",
+        "url": "https://www.instagram.com/brewdogroma"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "12:00 pm - 01:00 am" },
+      { "day": "Tuesday", "times": "12:00 pm - 01:00 am" },
+      { "day": "Wednesday", "times": "12:00 pm - 01:00 am" },
+      { "day": "Thursday", "times": "12:00 pm - 01:00 am" },
+      { "day": "Friday", "times": "12:00 pm - 02:00 am" },
+      { "day": "Saturday", "times": "12:00 pm - 02:00 am" },
+      { "day": "Sunday", "times": "12:00 pm - 01:00 am" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "35.66176", "lng": "139.73461" },
+      "address": [
+        "Saito Bldg. 1F",
+        "Roppongi 5-3-2",
+        "",
+        "Minato-ku",
+        "Tokyo. 106-0032"
+      ],
+      "telephone": "t: 03-6447-4160",
+      "email": "roppongibar@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog Roppongi",
+        "url": "https://www.facebook.com/BrewDogRoppongi"
+      },
+      {
+        "network": "twitter",
+        "handle": "@BrewDogRoppongi",
+        "url": "https://www.twitter.com/BrewDogRoppongi"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdogroppongi",
+        "url": "https://www.instagram.com/brewdogroppongi"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "5pm-12am" },
+      { "day": "Tuesday", "times": "5pm-12am" },
+      { "day": "Wednesday", "times": "5pm-12am" },
+      { "day": "Thursday", "times": "5pm-12am" },
+      { "day": "Friday", "times": "5pm-12am" },
+      { "day": "Saturday", "times": "3pm-12am" },
+      { "day": "Sunday", "times": "3pm-12am" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "-23.5613330", "lng": "-46.6939158" },
+      "address": [
+        "Rua Coropé",
+        "41 - Pinheiros",
+        "São Paulo - SP",
+        "05426-010",
+        "Brazil"
+      ],
+      "telephone": "t: +55 11 3032-4007",
+      "email": "saopaulobar@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog São Paulo",
+        "url": "https://pt-br.facebook.com/brewdogsaopaulo"
+      },
+      {
+        "network": "twitter",
+        "handle": "@BrewDogSaoPaulo",
+        "url": "https://www.twitter.com/BrewDogSaoPaulo"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdogsaopaulo",
+        "url": "https://www.instagram.com/brewdogsaopaulo"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "18:00 - 00:00" },
+      { "day": "Tuesday", "times": "18:00 - 00:00" },
+      { "day": "Wednesday", "times": "18:00 - 00:00" },
+      { "day": "Thursday", "times": "18:00 - 01:00" },
+      { "day": "Friday", "times": "15:00 - 02:00" },
+      { "day": "Saturday", "times": "12:00 - 02:00" },
+      { "day": "Sunday", "times": "12:00 - 22:00" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "59.30927870000001", "lng": " 18.083189299999958" },
+      "address": ["Ringvägen 149B 116 31 Stockholm"],
+      "telephone": "",
+      "email": "sodermalm@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog Södermalm",
+        "url": "https://www.facebook.com/BrewDogSodermalm"
+      },
+      {
+        "network": "twitter",
+        "handle": "@brewdogsoder",
+        "url": "https://www.twitter.com/brewdogsoder"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdogsodermalm",
+        "url": "https://www.instagram.com/brewdogsodermalm"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "16.00 - 23.00" },
+      { "day": "Tuesday", "times": "16.00 - 00.00" },
+      { "day": "Wednesday", "times": "16.00 - 00.00" },
+      { "day": "Thursday", "times": "16.00 - 00.00" },
+      { "day": "Friday", "times": "14.00 - 01.00" },
+      { "day": "Saturday", "times": "14.00 - 01.00" },
+      { "day": "Sunday", "times": "14.00 - 23.00" }
+    ]
+  },
+  {
+    "contact_details": {
+      "location": { "lat": "59.438782202125715", "lng": "24.758174836245757" },
+      "address": ["Rotermanni 2", "10111 Tallinn"],
+      "telephone": "t: +372 557 9787",
+      "email": "tallinnbar@brewdog.com"
+    },
+    "social": [
+      {
+        "network": "facebook",
+        "handle": "BrewDog Tallinn",
+        "url": "https://www.facebook.com/BrewDogTallinn/"
+      },
+      {
+        "network": "twitter",
+        "handle": "@brewdogtallinn",
+        "url": "https://www.twitter.com/brewdogtallinn"
+      },
+      {
+        "network": "instagram",
+        "handle": "@brewdogtallinnbar",
+        "url": "https://www.instagram.com/brewdogtallinnbar"
+      }
+    ],
+    "opening_hours": [
+      { "day": "Monday", "times": "5 pm - 12am" },
+      { "day": "Tuesday", "times": "5 pm - 12am" },
+      { "day": "Wednesday", "times": "5 pm - 12am" },
+      { "day": "Thursday", "times": "2 pm - 2 am" },
+      { "day": "Friday", "times": "2 pm - 2 am " },
+      { "day": "Saturday", "times": "2 pm - 2 am " },
+      { "day": "Sunday", "times": "CLOSED" }
+    ]
+  }
+]

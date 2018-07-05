@@ -3,7 +3,7 @@
 service: bd-ipa-api
 provider:
   name: aws
-  runtime: nodejs6.10
+  runtime: nodejs8.10
   stage: ${opt:stage, 'dev'}
 functions:
   bars:
@@ -12,8 +12,9 @@ functions:
       - http:
           path: bars
           method: get
-  beersInBar:
-    handler: handler.getBeersInBar
+
+  barDetails:
+    handler: handler.getBarDetails
     events:
       - http:
           path: bars/{bar}
@@ -22,6 +23,18 @@ functions:
             parameters:
               paths:
                 bar: true
+
+  beersInBar:
+    handler: handler.getBeersInBar
+    events:
+      - http:
+          path: ontap/{bar}
+          method: get
+          request:
+            parameters:
+              paths:
+                bar: true
+  
   
 plugins:
   - serverless-domain-manager
@@ -31,6 +44,7 @@ plugins:
 package:
   include:
     - handler.js
+    - static/
 
 custom:
   customDomain:
