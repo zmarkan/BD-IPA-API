@@ -2,6 +2,9 @@
 
 Or maybe just an experiment in serverless and making a little ScrAPI. Who knows?
 
+[![CircleCI](https://circleci.com/gh/zmarkan/BD-IPA-API/tree/master.svg?style=svg)](https://circleci.com/gh/zmarkan/BD-IPA-API/tree/master)
+
+
 ## Usage
 
 The service lives at `https://api.ipa-api.net/brewdog` and has two GET endpoints:
