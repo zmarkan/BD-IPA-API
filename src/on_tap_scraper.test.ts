@@ -1,4 +1,3 @@
-import { OnTap } from './ontap';
 import { parseBeersFromBar } from './on_tap_scraper';
 import * as cheerio from 'cheerio';
 import * as fs from 'fs';

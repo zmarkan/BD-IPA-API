@@ -2,7 +2,7 @@ import * as request from "request-promise";
 import * as cheerio from "cheerio";
 import { Bar, Social, OpeningHours, ContactDetails } from './bar';
 
-const parseDetailsFromRequest = (bar: Bar, $: CheerioAPI) => {
+export const parseDetailsFromRequest = (bar: Bar, $: CheerioStatic) => {
 
   let barDeetsHtml = $("div.barDetails");
 
