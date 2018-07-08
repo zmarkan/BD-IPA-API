@@ -2,22 +2,9 @@ import * as request from "request-promise";
 import * as cheerio from "cheerio";
 import { Bar, Social, OpeningHours, ContactDetails } from './bar';
 
-export const fetchDetailsForBar = (inBar: Bar) =>  {
-  let bar: Bar = {} as Bar;
-  
-  bar.id = inBar.id;
-  bar.title = inBar.title;
-  bar.url = inBar.url;
+const parseDetailsFromRequest = (bar: Bar, $: CheerioAPI) => {
 
-  const options = {
-    uri: inBar.url,
-    transform: function(body: any) {
-      return cheerio.load(body);
-    }
-  };
-
-  return request(options).then(($: CheerioAPI) => {
-    let barDeetsHtml = $("div.barDetails");
+  let barDeetsHtml = $("div.barDetails");
 
     let mapHtml = $(barDeetsHtml).find("div#map");
     let location = {
@@ -116,7 +103,23 @@ export const fetchDetailsForBar = (inBar: Bar) =>  {
     bar.opening_hours = openingHours;
 
     return bar;
-  });
+}
+
+export const fetchDetailsForBar = (inBar: Bar) =>  {
+  let bar: Bar = {} as Bar;
+  
+  bar.id = inBar.id;
+  bar.title = inBar.title;
+  bar.url = inBar.url;
+
+  const options = {
+    uri: inBar.url,
+    transform: function(body: any) {
+      return cheerio.load(body);
+    }
+  };
+
+  return request(options).then(($: CheerioAPI) => parseDetailsFromRequest(bar, $));
 };
 
 //Cloudflare email hack. Taken from https://usamaejaz.com/cloudflare-email-decoding/
