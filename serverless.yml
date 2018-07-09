@@ -48,7 +48,7 @@ package:
 
 custom:
   customDomain:
-    domainName: api.ipa-api.net
+    domainName: ${opt:apiprefix, 'api-dev'}.ipa-api.net
     basePath: 'brewdog'
     stage: ${self:provider.stage}
     createRoute53Record: true
