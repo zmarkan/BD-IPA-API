@@ -54,7 +54,8 @@ jobs:
         - run: npm run test
 
         # Deploy ftw
-        - deploy: ./node_modules/.bin/serverless deploy
+        - deploy: 
+            command: ./node_modules/.bin/serverless deploy
 
 workflows:
   version: 2
