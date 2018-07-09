@@ -7,9 +7,8 @@
     "test": "jest"
   },
   "author": "Zan Markan",
-  "repository" : "https://github.com/zmarkan/BD-IPA-API",
+  "repository": "https://github.com/zmarkan/BD-IPA-API",
   "license": "ISC",
-
   "jest": {
     "transform": {
       "^.+\\.tsx?$": "ts-jest"
@@ -24,7 +23,6 @@
       "node"
     ]
   },
-
   "devDependencies": {
     "@types/aws-lambda": "^8.10.7",
     "@types/cheerio": "^0.22.8",
@@ -32,6 +30,7 @@
     "@types/node": "^10.5.1",
     "@types/request-promise": "^4.1.41",
     "jest": "^23.3.0",
+    "serverless": "^1.28.0",
     "serverless-domain-manager": "^2.4.0",
     "serverless-offline": "^3.25.5",
     "serverless-plugin-typescript": "^1.1.5",
@@ -44,5 +43,4 @@
     "request": "^2.87.0",
     "request-promise": "^4.2.2"
   }
-
 }
