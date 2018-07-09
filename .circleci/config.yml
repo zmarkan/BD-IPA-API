@@ -51,19 +51,19 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 
+      - run: nom run test
+
       # Deploy ftw
       - deploy: ./node_modules/.bin/serverless deploy
 
 workflows:
   version: 2
-
   build-only:
     jobs:
       - build
-
   build-deploy:
     jobs:
-      - deploy:
+      - deploy
           filters:
             branches:
               only: master          
