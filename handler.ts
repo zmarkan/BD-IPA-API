@@ -4,9 +4,13 @@ import { fetchDetailsForBar } from './src/bar_details_scraper';
 import { OnTap } from "./src/ontap";
 import { Bar } from './src/bar'
 import * as fs from 'fs';
+import * as aws from 'aws-sdk';
 
 const FULL_BARS_RESPONSE = "static/bars-full.json";
 const REGULAR_BARS_RESPONSE = "static/bars.json";
+
+//console.log(process.env.BAR_DATA_BUCKET);
+
 
 interface Response {
   statusCode: number;
@@ -15,7 +19,6 @@ interface Response {
 
 //Le functions
 const getAllBars: Handler = (event: APIGatewayEvent, context: Context, callback: Callback) => {
-
   let returnFullDetails = false;
 
   if (event.queryStringParameters && event.queryStringParameters.full_details) {

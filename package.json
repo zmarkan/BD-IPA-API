@@ -34,11 +34,13 @@
     "serverless-domain-manager": "^2.4.0",
     "serverless-offline": "^3.25.5",
     "serverless-plugin-typescript": "^1.1.5",
+    "serverless-s3-local": "^0.3.9",
     "ts-jest": "^23.0.0",
     "ts-node": "^7.0.0",
     "typescript": "^2.9.2"
   },
   "dependencies": {
+    "aws-sdk": "^2.271.1",
     "cheerio": "^1.0.0-rc.2",
     "request": "^2.87.0",
     "request-promise": "^4.2.2"
