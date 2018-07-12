@@ -5,6 +5,9 @@ provider:
   name: aws
   runtime: nodejs8.10
   stage: ${opt:stage, 'dev'}
+  environment:
+    BAR_DATA_BUCKET:
+      'Fn::ImportValue': ${self:service}:${self:provider.stage}:BarDataBucketArn
 functions:
   bars:
     handler: handler.getAllBars
@@ -39,6 +42,7 @@ functions:
 plugins:
   - serverless-domain-manager
   - serverless-plugin-typescript
+  - serverless-s3-local
   - serverless-offline
 
 package:
@@ -52,3 +56,20 @@ custom:
     basePath: 'brewdog'
     stage: ${self:provider.stage}
     createRoute53Record: true
+
+resources:
+  Resources:
+    barDataBucket:
+      Type: AWS::S3::Bucket
+
+  # Mah outputs!
+  Outputs:
+    BarDataBucketArn:
+      Description: Arn for the Bar data bucket
+      Value:
+        "Fn::GetAtt": [ barDataBucket, Arn ]
+      Export:
+        Name: ${self:service}:${self:provider.stage}:BarDataBucketArn
+
+
+      
