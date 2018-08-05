@@ -1,14 +1,14 @@
-import * as aws from 'aws-sdk';
+import * as AWS from 'aws-sdk';
 import { Bar } from './bar';
-import { resolve } from 'url';
 
-//TODO
+const LIMITED_LIST = "bars.json";
+const FULL_LIST = "bars-full.json";
 
-//Files
-const LIMITED_LIST = "";
-const FULL_LIST = "";
+const BUCKET = process.env.BAR_DATA_BUCKET as string;
 
-export interface Storage {
+if(!BUCKET) throw new Error("bucketeer.ts || Missing BAR_DATA_BUCKET environment variable - make sure it's set!");
+
+interface Storage {
 
     storeFullBarDetails: (bars: Array<Bar>) => Promise<Boolean>;
     storeLimitedBarDetails: (bars: Array<Bar>) => Promise<Boolean>;
@@ -18,18 +18,15 @@ export interface Storage {
 }
 
 class BucketStorage implements Storage  {
-    
-    storeFullBarDetails: (bars: Bar[]) => Promise<Boolean> = (bars) => {
 
-        return new Promise<Boolean> ( (resolve, reject) => {
-        });
+    S3 = new AWS.S3();
+    
+    storeFullBarDetails: (bars: Bar[]) => Promise<boolean> = (bars) => {
+        return this.storeBarsListToBucket(bars, FULL_LIST);
     }
     
-    storeLimitedBarDetails: (bars: Bar[]) => Promise<Boolean> = (bars) => {
-
-        return new Promise<Boolean> ( (resolve, reject) => {
-
-        });
+    storeLimitedBarDetails: (bars: Bar[]) => Promise<boolean> = (bars) => {
+        return this.storeBarsListToBucket(bars, LIMITED_LIST);
     }
 
     retrieveFullBarDetails: () => Promise<Bar[]> = () => {
@@ -40,36 +37,49 @@ class BucketStorage implements Storage  {
         return this.retrieveBarsListFromBucket(LIMITED_LIST);
     };
 
-    private retrieveBarsListFromBucket = (filename: string) => {
-        return new Promise<Bar[]> ( (resolve, reject) => {});
+    private storeBarsListToBucket = (bars: Bar[], filename: string) => {
+        return new Promise<boolean> ( (resolve, reject) => {
+
+            this.S3.putObject({
+                Bucket: BUCKET,
+                Key: filename
+            }, (error, data) => {
+
+                if(error) reject(error);
+                else return true;
+            });
+        });
     }
 
+    private retrieveBarsListFromBucket = (filename: string) => {
+        return new Promise<Bar[]> ( (resolve, reject) => {
 
+            this.S3.getObject({
+                Bucket: BUCKET,
+                Key: filename
+            }, 
+            (error, data) => {
+                if(error) reject(error);
+
+                if(data && data.Body){
+                    return (JSON.parse(data.Body as string) as Bar[]);
+                }
+                else reject("Missing data");
+            });
+        });
+    }
 }
 
+let bucketStorage: BucketStorage | null = null;
 
-
-
-
-export const storeFullBarDetails = (bars: Array<Bar>) => {
-
-
-
+const getStorage = () => {
+    if(!bucketStorage) bucketStorage = new BucketStorage();
+    return bucketStorage;
 }
 
-export const storeBarsList = (bars: Array<Bar>) => {
+const storeFullBarDetails = (bars: Array<Bar>) => getStorage().storeFullBarDetails(bars); 
+const storeBarsList = (bars: Array<Bar>) => getStorage().storeLimitedBarDetails(bars);
+const fetchBarsList = () => getStorage().retrieveLimitedBarDetails();
+const fetchFullBarsList = () => getStorage().retrieveFullBarDetails();
 
-
-}
-
-
-
-export const fetchBarsList = () => {
-
-    return new Promise<Array<Bar>> ( (resolve, reject) => {
-
-
-
-    });
-
-}
+export { Storage, storeFullBarDetails, storeBarsList, fetchBarsList, fetchFullBarsList };

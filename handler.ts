@@ -6,11 +6,10 @@ import { Bar } from './src/bar'
 import * as fs from 'fs';
 import * as aws from 'aws-sdk';
 
+import { fetchBarsList, fetchFullBarsList, storeBarsList, storeFullBarDetails} from "./src/bucketeer";
+
 const FULL_BARS_RESPONSE = "static/bars-full.json";
 const REGULAR_BARS_RESPONSE = "static/bars.json";
-
-//console.log(process.env.BAR_DATA_BUCKET);
-
 
 interface Response {
   statusCode: number;
