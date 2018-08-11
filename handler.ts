@@ -7,6 +7,7 @@ import * as fs from 'fs';
 import * as aws from 'aws-sdk';
 
 import { fetchBarsList, fetchFullBarsList, storeBarsList, storeFullBarDetails} from "./src/bucketeer";
+import { eventNames } from 'cluster';
 
 const FULL_BARS_RESPONSE = "static/bars-full.json";
 const REGULAR_BARS_RESPONSE = "static/bars.json";
@@ -76,6 +77,11 @@ const getBarDetails: Handler = (event, context, callback) => {
     }
   });
 }
+
+const scrapeBars: Handler = (event, context, callback) => {
+
+  
+};
 
 
 

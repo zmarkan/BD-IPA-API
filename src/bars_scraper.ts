@@ -1,19 +1,19 @@
 import * as request from 'request-promise';
 import * as cheerio from 'cheerio';
-import * as fs from 'fs';
 import { Bar } from '../src/bar';
 
 const BASE_URL = "https://www.brewdog.com";
 const BARS_UK_SUFFIX = "/bars/uk";
 
-const options = {
-    uri: BASE_URL + BARS_UK_SUFFIX ,
-    transform: function (body: any) {
-      return cheerio.load(body);
-    }
-};
+const scrapeBars = () => {
+    const options = {
+        uri: BASE_URL + BARS_UK_SUFFIX ,
+        transform: function (body: any) {
+          return cheerio.load(body);
+        }
+    };
 
-request(options)
+    return request(options)
     .then( ($: CheerioAPI) => {
 
         let allBars = Array<Bar>();
@@ -42,10 +42,9 @@ request(options)
             }
         });
 
-        fs.writeFile('static/bars.json', JSON.stringify(allBars), (err) => {
-            console.log(err);
-        });
-    }
-);
+        return allBars
+    });
+};
 
+export { scrapeBars };
 
