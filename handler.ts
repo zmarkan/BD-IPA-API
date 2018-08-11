@@ -8,6 +8,8 @@ import * as aws from 'aws-sdk';
 
 import { fetchBarsList, fetchFullBarsList, storeBarsList, storeFullBarDetails} from "./src/bucketeer";
 import { eventNames } from 'cluster';
+import { scrapeBars } from './src/bars_scraper';
+import { scrapeFullBarDetails } from './src/full_bar_details_scraper';
 
 const FULL_BARS_RESPONSE = "static/bars-full.json";
 const REGULAR_BARS_RESPONSE = "static/bars.json";
@@ -34,9 +36,7 @@ const getAllBars: Handler = (event: APIGatewayEvent, context: Context, callback:
   
     callback(undefined, response);
   });
-
 };
-
 
 //TODO: 404 LOL
 const getBeersInBar: Handler = (event, context, callback) => {
@@ -78,11 +78,29 @@ const getBarDetails: Handler = (event, context, callback) => {
   });
 }
 
-const scrapeBars: Handler = (event, context, callback) => {
+const refreshBarsList: Handler = (event, context, callback) => {
 
+  scrapeBars()
+    .then( bars => storeBarsList(bars))
+    .then( success => {
+      if(success) callback(null, { status: 200, result: "Success" });    
+      else callback(null, { status: 500, result: "Internal server error"});
+  });
+};
+
+const refreshFullBarsList: Handler = (event, context, callback) => {
   
+  scrapeBars()
+    .then( bars => scrapeFullBarDetails(bars))
+    .then( fullBars => storeFullBarDetails(fullBars))
+    .then( success => {
+
+      if(success) callback(null, { status: 200, result: "Success" });    
+      else callback(null, { status: 500, result: "Internal server error"});
+
+    });
 };
 
 
 
-export { getAllBars, getBarDetails, getBeersInBar }
+export { getAllBars, getBarDetails, getBeersInBar, refreshBarsList, refreshFullBarsList }
