@@ -1,9 +1,10 @@
+
 import * as request from "request-promise";
 import * as cheerio from "cheerio";
 import { Bar, Social, OpeningHours, ContactDetails } from './bar';
+import * as fs from 'fs';
 
-export const parseDetailsFromRequest = (bar: Bar, $: CheerioStatic) => {
-
+const scrapeDetailsFromHtml = (bar: Bar, $: CheerioStatic) => {
   let barDeetsHtml = $("div.barDetails");
 
     let mapHtml = $(barDeetsHtml).find("div#map");
@@ -34,6 +35,7 @@ export const parseDetailsFromRequest = (bar: Bar, $: CheerioStatic) => {
     let encodedEmail = $(barDeetsHtml)
       .find("span.__cf_email__")
       .attr("data-cfemail");
+
     let email = cfDecodeEmail(encodedEmail);
 
     let contactDetails: ContactDetails = {
@@ -105,6 +107,21 @@ export const parseDetailsFromRequest = (bar: Bar, $: CheerioStatic) => {
     return bar;
 }
 
+export const parseDetailsFromRequest: (bar: Bar, $: CheerioStatic) => Bar | null = (bar: Bar, $: CheerioStatic) => {
+
+  try {
+    return scrapeDetailsFromHtml(bar, $);
+  }
+
+  catch(err) {
+
+    console.error(`Error parsing details for bar: ${bar.url}`);
+    console.error(err);
+
+    return null;
+  }
+}
+
 export const fetchDetailsForBar = (inBar: Bar) =>  {
   let bar: Bar = {} as Bar;
   
@@ -112,14 +129,19 @@ export const fetchDetailsForBar = (inBar: Bar) =>  {
   bar.title = inBar.title;
   bar.url = inBar.url;
 
-  const options = {
+  console.log("Fetching details for bar");
+  console.log(bar.id);
+  console.log(bar.title);
+  console.log(bar.url);
+
+  const options: request.OptionsWithUri = {
     uri: inBar.url,
-    transform: function(body: any) {
+    transform: function(body: any, response, resolveWithFullResponse ) {
       return cheerio.load(body);
-    }
+    },
   };
 
-  return request(options).then(($: CheerioAPI) => parseDetailsFromRequest(bar, $));
+  return request(options).then( $ => parseDetailsFromRequest(bar, $));
 };
 
 //Cloudflare email hack. Taken from https://usamaejaz.com/cloudflare-email-decoding/

@@ -4,7 +4,7 @@ import { Bar } from './bar';
 const LIMITED_LIST = "bars.json";
 const FULL_LIST = "bars-full.json";
 
-const BUCKET = process.env.BAR_DATA_BUCKET as string;
+const BUCKET = (process.env.BAR_DATA_BUCKET as string).split(":::")[1];
 
 if(!BUCKET) throw new Error("bucketeer.ts || Missing BAR_DATA_BUCKET environment variable - make sure it's set!");
 
@@ -38,11 +38,16 @@ class BucketStorage implements Storage  {
     };
 
     private storeBarsListToBucket = (bars: Bar[], filename: string) => {
+
+        console.log(`Storing bars file to ${filename}`);
+        console.log(bars);
+
         return new Promise<boolean> ( (resolve, reject) => {
 
             this.S3.putObject({
                 Bucket: BUCKET,
-                Key: filename
+                Key: filename,
+                Body: JSON.stringify(bars)
             }, (error, data) => {
 
                 if(error) reject(error);

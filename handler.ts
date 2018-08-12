@@ -85,7 +85,8 @@ const refreshBarsList: Handler = (event, context, callback) => {
     .then( success => {
       if(success) callback(null, { status: 200, result: "Success" });    
       else callback(null, { status: 500, result: "Internal server error"});
-  });
+    })
+    .catch( error => callback(error));;
 };
 
 const refreshFullBarsList: Handler = (event, context, callback) => {
@@ -98,9 +99,8 @@ const refreshFullBarsList: Handler = (event, context, callback) => {
       if(success) callback(null, { status: 200, result: "Success" });    
       else callback(null, { status: 500, result: "Internal server error"});
 
-    });
+    })
+    .catch( error => callback(error));
 };
-
-
 
 export { getAllBars, getBarDetails, getBeersInBar, refreshBarsList, refreshFullBarsList }

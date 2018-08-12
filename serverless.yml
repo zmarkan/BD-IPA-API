@@ -8,6 +8,26 @@ provider:
   environment:
     BAR_DATA_BUCKET:
       'Fn::ImportValue': ${self:service}:${self:provider.stage}:BarDataBucketArn
+    
+  iamRoleStatements:
+    - Effect: "Allow"
+      Action: 
+        - "s3:ListBucket"
+      Resource: 
+        'Fn::ImportValue': ${self:service}:${self:provider.stage}:BarDataBucketArn
+
+    - Effect: Allow
+      Action:
+        - "s3:GetObject"
+        - "s3:PutObject"
+        - "s3:DeleteObject"
+      Resource:
+        Fn::Join:
+           - ""
+           - - "arn:aws:s3:::"
+             - Ref: barDataBucket
+             - "/*"
+
 functions:
   bars:
     handler: handler.getAllBars
@@ -38,6 +58,20 @@ functions:
               paths:
                 bar: true
   
+  refreshBarsList:
+    handler: handler.refreshBarsList
+    events:
+      - http:
+          path: util/refreshBarsList
+          method: get
+
+  refreshFullBarsList: 
+    handler: handler.refreshFullBarsList
+    timeout: 60 # This is a longer process that requires a higher timeout limit
+    events:
+      - http:
+          path: util/refreshFullBarsList
+          method: get
   
 plugins:
   - serverless-domain-manager
@@ -71,5 +105,11 @@ resources:
       Export:
         Name: ${self:service}:${self:provider.stage}:BarDataBucketArn
 
+    BarDataBucketName:
+      Description: Name of the Bar data bucket
+      Value: 
+        "Ref": "barDataBucket"
+      Export: 
+        Name: ${self:service}:${self:provider.stage}:BarDataBucketName
 
       
